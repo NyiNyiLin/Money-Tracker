@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.padc.nyi.moneysaver123">
+    package="com.padc.nyi.moneytracker">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".MoneySaverApp"
+        android:name="com.padc.nyi.moneytracker.MoneySaverApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.HomeActivity"
+            android:name="com.padc.nyi.moneytracker.activities.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,30 +23,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.AddIncomeActivity"
+            android:name="com.padc.nyi.moneytracker.activities.AddIncomeActivity"
             android:label="@string/title_activity_add_income"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.AddExpenseActivity"
+            android:name="com.padc.nyi.moneytracker.activities.AddExpenseActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.AddBillActivity"
+            android:name="com.padc.nyi.moneytracker.activities.AddBillActivity"
             android:label="@string/title_activity_add_bill"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
-            android:name=".data.persistence.MoneySaverProvider"
+            android:name="com.padc.nyi.moneytracker.data.persistence.MoneySaverProvider"
             android:authorities="@string/content_authority"
             android:exported="false"
             android:syncable="true" />
 
         <activity
-            android:name=".activities.ExpenseCatIDActivity"
+            android:name="com.padc.nyi.moneytracker.activities.ExpenseCatIDActivity"
             android:label="@string/title_activity_expense_cat_id"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <receiver
-            android:name=".receiver.BillAlarm"
+            android:name="com.padc.nyi.moneytracker.receiver.BillAlarm"
             android:label="BroadcastReceiverAux">
             <intent-filter>
                 <action android:name="ALARM" />
@@ -56,7 +56,7 @@
         </receiver>
 
         <receiver
-            android:name=".receiver.DailylAlarm"
+            android:name="com.padc.nyi.moneytracker.receiver.DailylAlarm"
             android:label="BroadcastReceiverAux">
             <intent-filter>
                 <action android:name="ALARM" />
@@ -65,7 +65,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".activities.AlarmDisplayActivity"/>
+        <activity android:name="com.padc.nyi.moneytracker.activities.AlarmDisplayActivity"/>
     </application>
 
 </manifest>

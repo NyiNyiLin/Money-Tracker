@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.padc.nyi.moneysaver123.activities.AddIncomeActivity"
+    tools:context="com.padc.nyi.moneytracker.activities.AddIncomeActivity"
     tools:showIn="@layout/activity_add_income"
     android:background="@drawable/back97"
     >
@@ -19,14 +19,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:id="@+id/txt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_income_title"
             android:textSize="@dimen/text_regular"/>
 
-        <com.padc.nyi.moneysaver123.components.MMEditText
+        <com.padc.nyi.moneytracker.components.MMEditText
             android:id="@+id/et_title"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -35,14 +35,14 @@
             android:textSize="@dimen/text_regular"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:id="@+id/txt_amount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_income_amount"
             android:textSize="@dimen/text_regular"/>
 
-        <com.padc.nyi.moneysaver123.components.MMEditText
+        <com.padc.nyi.moneytracker.components.MMEditText
             android:id="@+id/et_amount"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:inputType="number"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_income_category"/>
@@ -74,13 +74,13 @@
         </LinearLayout>
 
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_income_date"
             android:textSize="@dimen/text_regular"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:id="@+id/txt_date"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -89,13 +89,13 @@
             android:padding="@dimen/margin_medium"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:id="@+id/lbl_note"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_income_note"/>
 
-        <com.padc.nyi.moneysaver123.components.MMEditText
+        <com.padc.nyi.moneytracker.components.MMEditText
             android:id="@+id/et_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
             android:overScrollMode="always"
             android:scrollbarSize="12dp"/>
 
-        <com.padc.nyi.moneysaver123.components.MMButton
+        <com.padc.nyi.moneytracker.components.MMButton
             android:id="@+id/btn_income_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

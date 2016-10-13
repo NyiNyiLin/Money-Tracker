@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.padc.nyi.moneysaver123.activities.AddBillActivity"
+    tools:context="com.padc.nyi.moneytracker.activities.AddBillActivity"
     tools:showIn="@layout/activity_add_bill"
     android:orientation="vertical"
     android:background="@drawable/back97">
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:id="@+id/txt_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
             android:textSize="@dimen/text_regular"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:id="@+id/txt_amount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:inputType="number"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_bill_final_date"
@@ -67,7 +67,7 @@
             android:padding="@dimen/margin_medium"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMTextView
+        <com.padc.nyi.moneytracker.components.MMTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lbl_bill_remind_date"
@@ -82,7 +82,7 @@
             android:padding="@dimen/margin_medium"
             android:layout_marginBottom="@dimen/margin_medium_2"/>
 
-        <com.padc.nyi.moneysaver123.components.MMButton
+        <com.padc.nyi.moneytracker.components.MMButton
             android:id="@+id/btn_bill_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

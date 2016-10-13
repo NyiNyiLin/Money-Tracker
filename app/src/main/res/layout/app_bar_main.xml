@@ -19,7 +19,7 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" >
 
-            <com.padc.nyi.moneysaver123.components.MMTextView
+            <com.padc.nyi.moneytracker.components.MMTextView
                 android:id="@+id/tv_screen_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
