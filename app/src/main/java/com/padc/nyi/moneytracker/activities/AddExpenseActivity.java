@@ -51,7 +51,7 @@ public class AddExpenseActivity extends AppCompatActivity implements  DatePicker
     @BindView(R.id.et_amount)
     EditText etExpenseAmount;
 
-    @BindView(R.id.spinner_category)
+    @BindView(R.id.spinner_category_expense)
     Spinner spinnerCategory;
 
     @BindView(R.id.et_note)
